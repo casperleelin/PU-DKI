@@ -1,2 +1,2 @@
 # PointCloudInterpolation
-This repository is a research on point cloud interpolation.
+This repository is a study concerning point cloud interpolation.
