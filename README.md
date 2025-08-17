@@ -31,7 +31,7 @@ python setup.py install
 Datasets can be download from here:
 
 | original PU-GAN | PU1K |
-|:-------------:|:---------------:|:-------------:| 
+|:-------------:|:---------------:|
 |  [here](https://github.com/liruihui/PU-GAN) | [here](https://github.com/guochengqian/PU-GCN) |
 
 
