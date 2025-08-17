@@ -30,9 +30,9 @@ python setup.py install
 
 Datasets can be download from here:
 
-| original PU-GAN | PU1K | pre-processed PU-GAN |
+| original PU-GAN | PU1K |
 |:-------------:|:---------------:|:-------------:| 
-|  [here](https://github.com/liruihui/PU-GAN) | [here](https://github.com/guochengqian/PU-GCN) | [Google Drive](https://drive.google.com/drive/folders/14Rd1jaRvGQHJAWM7q_FgJiL9U8_M30qf?usp=drive_link)  |
+|  [here](https://github.com/liruihui/PU-GAN) | [here](https://github.com/guochengqian/PU-GCN) |
 
 
 * We provide a pre-processed PU-GAN testing set with multiple resolutions of GT point clouds.
