@@ -35,6 +35,7 @@ Datasets can be download from here:
 |  [here](https://github.com/liruihui/PU-GAN) | [here](https://github.com/guochengqian/PU-GCN) |
 
 
+* We provide rock outcrop point cloud and rock fragment point cloud in "Rock point cloud" folder.
 * We provide a pre-processed PU-GAN testing set with multiple resolutions of GT point clouds.
 * If you want to generate testing point clouds from mesh files by youself, please refer to [here](https://github.com/yunhe20/Grad-PU).
 
