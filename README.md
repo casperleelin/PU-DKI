@@ -82,6 +82,10 @@ python test.py --dataset pugan --input_dir ./data/PU-GAN/test_pointcloud/input_2
 
 * You can use our code to get CD value. To calculate HD and P2F value, please refer to [here](https://github.com/guochengqian/PU-GCN). 
 
+#### Deployment example:
+# nX upsampling on input point cloud
+python deployment.py --dataset pu1k --input_dir YOUR_INPUT_POINTCLOUD_FOLDER --save_dir YOUR_OUTPUT_POINTCLOUD_FOLDER --ckpt ./pretrain/pu1k_best.pth  --upsampling_rate n
+
 #### Surface reconstruction:
 ```
 python surf_recon.py --file_path xxx.xyz --save_path xxx.obj
