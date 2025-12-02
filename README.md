@@ -82,13 +82,30 @@ python test.py --dataset pugan --input_dir ./data/PU-GAN/test_pointcloud/input_2
 
 * You can use our code to get CD value. To calculate HD and P2F value, please refer to [here](https://github.com/guochengqian/PU-GCN). 
 
+```
 #### Deployment example:
+```
 # nX upsampling on input point cloud
 python deployment.py --dataset pu1k --input_dir YOUR_INPUT_POINTCLOUD_FOLDER --save_dir YOUR_OUTPUT_POINTCLOUD_FOLDER --ckpt ./pretrain/pu1k_best.pth  --upsampling_rate n
 
+```
 #### Surface reconstruction:
 ```
 python surf_recon.py --file_path xxx.xyz --save_path xxx.obj
+```
+
+##  Baseline Comparation 
+
+All baseline comparing repositories can be download from here:
+
+| Repo Name | Links |
+|:-------------:|:---------------:|
+|  PU-Transformer | [here](https://github.com/rhtm02/PU-Transformer) |
+|  APU-SMOG | [here](https://apusmog.github.io/) |
+|  PUDM | [here](https://github.com/QWTforGithub/PUDM) |
+|  PUCRN | [here](https://github.com/hikvision-research/3DVision/tree/main/PointUpsampling/PUCRN) |
+|  Grad-PU | [here](https://github.com/yunhe20/Grad-PU) |
+|  RepKPU | [here](https://github.com/EasyRy/RepKPU) |
 
 ## Acknowledgements
 This repo is heavily based on [KPConvX](https://github.com/apple/ml-kpconvx), [Dis-PU](https://github.com/liruihui/Dis-PU). Thanks for their great work!
